@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>bind</title>
+</head>
+<body>
+
+
+<p id="go"></p>
+
+
+<script>
+	
+	var car={
+			color:"lime",
+			engine:"V6",
+			desc:function (){
+				return this.engine}
+		}
+		
+	var bike={
+				color:"blue",
+				engine:"1000cc",
+				desc:"7-gear"
+			}
+	const myTimeout = setTimeout(desc, 5000);
+	var desc=car.desc.bind(bike)
+	document.write(desc())
+
+const a = new Date();
+
+document.getElementById("go").innerHTML = a.getMonth() + 1 + "."+ a.getDate()+"."+a.getFullYear()+"<br>"+a.getDay()+"<br>"+a.getdatetime();
+
+
+
+</script>
+
+</body>
+</html>

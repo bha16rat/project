@@ -1,0 +1,66 @@
+nav{
+	background-color:red;
+	padding:20px;
+	float:left;
+}
+nav a{
+	color:white;
+	text-decoration:none;
+	padding:30px;
+	
+}
+nav a:hover{
+	background-color:white;
+	color:grey;
+}
+.qs{
+	float:right;
+	background-color:red;
+	padding:20px;
+}
+.we{
+	color:white;
+	padding:20px;	
+	text-decoration:none;
+}
+a.we:hover{
+	background-color:white;
+	color:grey;
+	padding:30px;
+}
+.hi{
+	box-sizing:border-box;
+	border:2px solid #E5E4E2;
+	background-color:white;
+}
+.i{
+	box-sizing:border-box;
+	border:2px solid #E5E4E2;
+	padding:10px 10px 10px 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+	width:90%;
+	padding:10px;
+	border:2px solid #625D5D;
+	border-radius:4px;
+	margin:10px;
+}
+fieldset{
+	background-color:#fff;
+	border: 2px solid #625D5D;
+	width:95%;
+	padding:10px;
+	border-radius:4px;
+}
+.sqp{
+	width:10%;
+}
+.opt{
+	font-size:20px;
+}

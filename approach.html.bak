@@ -1,0 +1,49 @@
+<!Doctype html>
+<html>
+<head><title>Contact me</title>
+</head>
+<style>
+.first{
+	font-size:50px;
+	color:white;
+}
+body{	
+	margin:0px;
+	background-image:linear-gradient(#00467F,#A5CC82);
+    background-repeat:no-repeat;
+    height:567px;
+	font-family:cursive;
+   }
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  width:70%;
+  margin-left:370px;
+  margin-top:160px;
+}
+
+.flex-container > div {
+  background-image:linear-gradient(#5433FF,#20BDFF,#A5FECB);
+  width: 250px;
+  margin: 10px;
+  height:200px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 25px;
+  color:white;
+}
+.img{
+	width:30px;
+	margin-top:20px;
+	
+}
+</style>
+<body>
+
+<center><div class="first">Contact Me</div></center>
+<div class="flex-container">
+  <div class="one">My Accounts<span class="content"><br><img src="in1.png" class="img">&nbsp&nbsp<img src="gog.png" class="img">&nbsp&nbsp<img src="face.png" class="img">&nbsp&nbsp<img src="insta1.png" class="img"></span></div>
+  <div class="two">My Personal Adderess<span><br><img src="calu.jpg" class="img">&nbsp&nbsp<img src="loca.jpg" class="img"></div>
+</div>
+</body>
+</html>

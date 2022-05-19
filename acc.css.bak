@@ -1,0 +1,77 @@
+header{
+	background-image:url("personal.jpg"),url("acc1.jpg"),url("net1.jpg");
+	background-repeat:no-repeat,no-repeat,no-repeat;
+	background-position:left top,center top,right top;	
+	padding:67px;
+	background-color:white;
+}
+.topnav {
+  overflow: hidden;
+  
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: white;
+  color: grey;
+}
+.topnav a {
+  background-color:orange;
+  color: white;
+}
+.topnav a.native {
+  background-color: white;
+  color: grey;
+}
+.low{
+	box-sizing:border-box;
+	padding:5px;
+	background-color:white;
+	border:1px solid #D3D3D3;
+}
+.text{
+	font-size:15px;
+}
+
+
+.topnav-right {
+  float: right;
+}
+.bot{
+	color:orange;
+	font-size:20px;
+}
+.squad{
+	background-color:orange;
+	color:white;
+	padding:10px;
+	text-decoration:none;
+	float:right;
+	margin:1px;
+}
+a.squad:hover{
+	cursor:pointer;
+	background-color:white;
+	color:grey;
+}
+nav{
+	background-color:orange;
+	padding:20px;
+	overflow:hidden;
+	text-align:left;
+}
+nav a{
+	text-decoration:none;
+	color:white;
+	padding:30px;
+}
+a:hover{
+	background-color:white;
+	color:grey;
+}
